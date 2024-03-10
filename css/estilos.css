@@ -58,5 +58,15 @@ span1:hover {
 }
 
 /* finaliza estilo navegador */
+/* Estilo card historia */
+.contenido {
+  font-size: 18.5px;
+}
+
+.principal-card {
+  padding-top: 2px;
+}
+
+/* finaliza estilo card historia */
 
 /*# sourceMappingURL=estilos.css.map */
