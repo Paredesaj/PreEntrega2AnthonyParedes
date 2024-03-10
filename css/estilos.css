@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilo navegador */
+.navbar {
+  background-image: url(/galeria/motorcycle-2186589_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: end;
+}
+
+.empresa {
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.collapse {
+  display: inline-flex;
+}
+
+.collapse a {
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.collapse a:hover {
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transition: 1s;
+  border-radius: 40px;
+  align-items: center;
+}
+
+span1:hover {
+  color: red;
+  transition: 1.5s;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  display: inline-flex;
+}
+
+.navbar img {
+  width: 100px;
+  height: auto;
+}
+
+/* finaliza estilo navegador */
+
+/*# sourceMappingURL=estilos.css.map */
