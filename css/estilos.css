@@ -220,4 +220,72 @@ span4:hover {
   padding-top: 15px;
 }
 
+.mainimagen {
+  background-image: url(/galeria/for1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-width: 400px;
+}
+
+.formulario {
+  display: inline-block;
+  width: 25%;
+  min-width: 400px;
+  background-image: url(/galeria/for2.jpg);
+  background-size: cover;
+  padding: 50px;
+  margin: 50px;
+  margin-left: 40%;
+  border-radius: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  box-shadow: 2px 3px 5px rgba(255, 0, 0, 0.3647058824);
+}
+
+.formulario h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controles {
+  color: white;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(255, 0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  box-shadow: 1px 1px 1px #ffffff;
+}
+
+.formulario p {
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.formulario a {
+  color: white;
+  text-decoration: none;
+}
+
+.formulario a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.formulario .boton {
+  width: 100%;
+  background: rgba(19, 19, 19, 0.089);
+  border-radius: 20px;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  margin: 16px 0;
+  font-size: 12px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
