@@ -7,7 +7,7 @@
 
 /* estilo navegador */
 .navbar {
-  background-image: url(/galeria/motorcycle-2186589_1920.jpg);
+  background-image: url(/galeria/nav3.jpg);
   background-size: cover;
   background-position: center;
   text-align: end;
@@ -147,5 +147,69 @@ span4:hover {
 }
 
 /* finaliza diseño footer  */
+.chasis h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.chasis p {
+  color: rgb(66, 66, 66);
+  text-align: justify;
+  font-size: 15.75px;
+}
+
+.motor h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.motor p {
+  color: rgb(66, 66, 66);
+  text-align: justify;
+  font-size: 16.55px;
+}
+
+.transmision h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.transmision p {
+  color: rgb(66, 66, 66);
+  text-align: justify;
+  font-size: 16.15px;
+}
+
+.suspension h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.suspension p {
+  color: rgb(66, 66, 66);
+  text-align: justify;
+  font-size: 15.45px;
+}
+
+.frenos h5 {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.frenos p {
+  color: rgb(66, 66, 66);
+  text-align: justify;
+  font-size: 16.15px;
+}
 
 /*# sourceMappingURL=estilos.css.map */
