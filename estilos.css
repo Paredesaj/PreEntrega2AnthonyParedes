@@ -1,0 +1,316 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilo navegador */
+.navbar {
+  background-image: url(/galeria/nav3.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: end;
+}
+
+.empresa {
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.collapse {
+  display: inline-flex;
+}
+
+.collapse a {
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.collapse a:hover {
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transition: 1s;
+  border-radius: 40px;
+  align-items: center;
+}
+
+span1:hover {
+  color: red;
+  transition: 1.5s;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  display: inline-flex;
+}
+
+.navbar img {
+  width: 100px;
+  height: auto;
+}
+
+/* finaliza estilo navegador */
+/* Estilo card historia */
+.contenido {
+  font-size: 18.5px;
+}
+
+.principal-card {
+  padding-top: 2px;
+}
+
+/* finaliza estilo card historia */
+/* estilo footer  */
+.bi {
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-width: 120px;
+  text-align: center;
+}
+
+.bi::before {
+  margin-right: 15px;
+}
+
+.col-sm {
+  text-align: center;
+  background-color: rgba(148, 0, 0, 0.945);
+  margin-top: 1px;
+  height: auto;
+  font-weight: 300;
+}
+
+.footer2 {
+  background-color: black;
+  height: auto;
+}
+
+.copyright {
+  font-size: 15px;
+  color: white;
+}
+
+.logofa {
+  color: rgb(0, 68, 255);
+}
+
+.fa {
+  color: white;
+  font-size: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+span2:hover {
+  color: rgb(0, 68, 255);
+  transition: 1s;
+}
+
+.logoins {
+  color: orange;
+}
+
+.ins {
+  color: white;
+  font-size: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+span3:hover {
+  color: orange;
+  transition: 1s;
+}
+
+.logotwi {
+  color: rgb(0, 174, 255);
+}
+
+.twi {
+  color: white;
+  font-size: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+span4:hover {
+  color: rgb(0, 174, 255);
+  transition: 1s;
+}
+
+/* finaliza diseño footer  */
+.chasis h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.chasis p {
+  color: rgb(66, 66, 66);
+  text-align: justify;
+  font-size: 15.75px;
+}
+
+.motor h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.motor p {
+  color: rgb(66, 66, 66);
+  text-align: justify;
+  font-size: 16.55px;
+}
+
+.transmision h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.transmision p {
+  color: rgb(66, 66, 66);
+  text-align: justify;
+  font-size: 16.15px;
+}
+
+.suspension h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.suspension p {
+  color: rgb(66, 66, 66);
+  text-align: justify;
+  font-size: 15.45px;
+}
+
+.frenos h5 {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.frenos p {
+  color: rgb(66, 66, 66);
+  text-align: justify;
+  font-size: 16.15px;
+}
+
+.carouselimagen {
+  padding-top: 15px;
+}
+
+.carouselvideo {
+  padding-top: 15px;
+}
+
+.mainimagen {
+  background-image: url(/galeria/for1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  width: 33%;
+  min-width: 350px;
+  background-image: url(/galeria/for2.jpg);
+  background-size: cover;
+  padding: 50px;
+  margin: 50px 25px;
+  border-radius: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  box-shadow: 2px 3px 5px rgba(255, 0, 0, 0.3647058824);
+}
+
+.formulario h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controles {
+  color: white;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(255, 0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  box-shadow: 1px 1px 1px #ffffff;
+}
+
+.formulario p {
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.formulario a {
+  color: white;
+  text-decoration: none;
+}
+
+.formulario a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.formulario .boton {
+  width: 100%;
+  background: rgba(19, 19, 19, 0.089);
+  border-radius: 20px;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  margin: 16px 0;
+  font-size: 12px;
+}
+
+.sobremi {
+  padding-top: 20px;
+  background-color: black;
+}
+
+.card-title1 {
+  font-size: 30px;
+  color: white;
+}
+
+.card-text1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 10px;
+  color: rgb(196, 196, 196);
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+span5:hover {
+  color: red;
+  transition: 1sgit;
+}
+
+/*# sourceMappingURL=estilos.css.map */
