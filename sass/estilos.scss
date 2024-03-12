@@ -218,7 +218,6 @@ span4:hover{
     justify-content: center;
     align-items: center;
   }
-  
 .formulario {
     width: 33%;
     min-width: 350px;
@@ -275,3 +274,32 @@ span4:hover{
   }
 
 //   finalizo estilo de formulario
+
+// inicio estilo sobre mi 
+
+.sobremi{
+    padding-top: 20px;
+    background-color: black;
+}
+
+.card-title1{
+    font-size: 30px;
+    color: white;
+}
+
+.card-text1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(196, 196, 196);
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+span5:hover{
+    color: red;
+    transition: 1s;
+}
