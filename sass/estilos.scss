@@ -277,29 +277,51 @@ span4:hover{
 
 // inicio estilo sobre mi 
 
-.sobremi{
+.sobremi {
     padding-top: 20px;
-    background-color: black;
-}
-
-.card-title1{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .card-title1 {
     font-size: 30px;
     color: white;
-}
-
-.card-text1{
+    text-align: center;
+  }
+  
+  .card-text1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     font-size: 20px;
     padding-top: 10px;
     color: rgb(196, 196, 196);
-}
-
-iframe{
+  }
+  
+  iframe {
     border-radius: 20px;
-}
-
-span5:hover{
+  }
+  
+  span5{
     color: red;
     transition: 1sgit;
-}
+    }
+  
+  .card2{
+    background-image: linear-gradient(163deg, #ff0000 0%, #ff036c 100%);
+    border-radius: 20px;
+    transition: all .3s;
+  }
+  .card3 {
+    background-color: #000000;
+    border-radius: 0;
+    transition: all .2s;
+   }
+  
+   .card3:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card2:hover {
+    box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.3);
+   }
+  
