@@ -7,7 +7,7 @@
 
 /* estilo navegador */
 .navbar {
-  background-image: url(/galeria/nav3.jpg);
+  background-image: url(../galeria/nav3.jpg);
   background-size: cover;
   background-position: center;
   text-align: end;
@@ -221,7 +221,7 @@ span4:hover {
 }
 
 .mainimagen {
-  background-image: url(/galeria/for1.jpg);
+  background-image: url(../galeria/for1.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -232,7 +232,7 @@ span4:hover {
 .formulario {
   width: 33%;
   min-width: 350px;
-  background-image: url(/galeria/for2.jpg);
+  background-image: url(../galeria/for2.jpg);
   background-size: cover;
   padding: 50px;
   margin: 50px 25px;
