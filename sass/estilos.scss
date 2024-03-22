@@ -3,6 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+// Tipografía importadas
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Cinzel:wght@400..900&family=Dhurjati&family=Gayathri:wght@100;400;700&display=swap');
+
+
+// Finaliza tipografía importadas
+
+// Inicia Variables tipograficas
+$fontbruno: "Bruno Ace", sans-serif;
+$fontdhurja: "Dhurjati", sans-serif;
+$fontcinzel: "Cinzel", serif;
+$fontGayathri: "Gayathri", sans-serif;
+
+// Finaliza variables tipograficas
+
 // inicio de estilo para index
 /* estilo navegador */
 .navbar{
@@ -12,27 +27,63 @@
     text-align: end;
 }
 .empresa{
+    letter-spacing: 3px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: $fontbruno;
 }
 .collapse{
     display:inline-flex;
 }
 .collapse a{
-    font-size: 20px;
-    margin-right: 10px;
+    font-size: 9px;
+    margin-right: 5px;
     cursor: pointer;
     color: rgb(255, 255, 255);
-    font-weight: 600;
+    font-weight: 300;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.collapse a:hover{
-    color:rgb(255, 0, 0);
-    background-color: rgb(255, 255, 255);
-    transition: 1s;
-    border-radius: 40px;
-    align-items: center;
-}
+
+  .button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    --border-right: 6px;
+    --text-stroke-color: rgba(255, 255, 255, 0.6);
+    --animation-color: #ffffff;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+ 
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 5px 23px var(--animation-color))
+  }
+
+//   finaliza estilo de boton
+
 span1:hover{
     color: red;
     transition: 1.5s;
@@ -51,12 +102,16 @@ span1:hover{
 /* finaliza estilo navegador */
 
 /* Estilo card historia */
-.contenido{
-    font-size: 18.5px;
 
+main h2{
+    font-family: $fontdhurja;
+    font-size: 50px;
 }
-.principal-card{
-    padding-top: 2px;
+.contenido{
+    font-size: 16.5px;
+    padding: 0 5px 0 5px;
+    font-family: $fontGayathri;
+
 }
 /* finaliza estilo card historia */
 
@@ -94,7 +149,7 @@ span1:hover{
 }
 .fa{
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 span2:hover{
@@ -106,7 +161,7 @@ span2:hover{
 }
 .ins{
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 span3:hover{
@@ -118,7 +173,7 @@ span3:hover{
 }
 .twi{
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 span4:hover{
