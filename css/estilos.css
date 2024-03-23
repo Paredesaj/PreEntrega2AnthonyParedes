@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Cinzel:wght@400..900&family=Dhurjati&family=Gayathri:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Honk&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -99,7 +100,7 @@ main h2 {
 }
 
 .contenido {
-  font-size: 16.5px;
+  font-size: 21px;
   padding: 0 5px 0 5px;
   font-family: "Gayathri", sans-serif;
 }
@@ -110,7 +111,7 @@ main h2 {
   color: rgb(255, 255, 255);
   margin-left: 10px;
   font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   min-width: 120px;
   text-align: center;
 }
@@ -135,6 +136,7 @@ main h2 {
 .copyright {
   font-size: 15px;
   color: white;
+  font-family: "Cinzel", serif;
 }
 
 .logofa {
@@ -143,13 +145,8 @@ main h2 {
 
 .fa {
   color: white;
-  font-size: 10px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-span2:hover {
-  color: rgb(0, 68, 255);
-  transition: 1s;
+  font-size: 20px;
+  font-family: "Honk", system-ui;
 }
 
 .logoins {
@@ -158,13 +155,8 @@ span2:hover {
 
 .ins {
   color: white;
-  font-size: 10px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-span3:hover {
-  color: orange;
-  transition: 1s;
+  font-size: 20px;
+  font-family: "Honk", system-ui;
 }
 
 .logotwi {
@@ -173,19 +165,14 @@ span3:hover {
 
 .twi {
   color: white;
-  font-size: 10px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-span4:hover {
-  color: rgb(0, 174, 255);
-  transition: 1s;
+  font-size: 20px;
+  font-family: "Honk", system-ui;
 }
 
 /* finaliza diseño footer  */
 .chasis h5 {
   color: rgb(0, 0, 0);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Dhurjati", sans-serif;
   text-align: center;
   font-size: 30px;
 }
@@ -194,11 +181,12 @@ span4:hover {
   color: rgb(66, 66, 66);
   text-align: justify;
   font-size: 15.75px;
+  font-family: "Gayathri", sans-serif;
 }
 
 .motor h5 {
   color: rgb(0, 0, 0);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Dhurjati", sans-serif;
   text-align: center;
   font-size: 30px;
 }
@@ -207,11 +195,12 @@ span4:hover {
   color: rgb(66, 66, 66);
   text-align: justify;
   font-size: 16.55px;
+  font-family: "Gayathri", sans-serif;
 }
 
 .transmision h5 {
   color: rgb(0, 0, 0);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Dhurjati", sans-serif;
   text-align: center;
   font-size: 30px;
 }
@@ -220,11 +209,12 @@ span4:hover {
   color: rgb(66, 66, 66);
   text-align: justify;
   font-size: 16.15px;
+  font-family: "Gayathri", sans-serif;
 }
 
 .suspension h5 {
   color: rgb(0, 0, 0);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Dhurjati", sans-serif;
   text-align: center;
   font-size: 30px;
 }
@@ -233,11 +223,12 @@ span4:hover {
   color: rgb(66, 66, 66);
   text-align: justify;
   font-size: 15.45px;
+  font-family: "Gayathri", sans-serif;
 }
 
 .frenos h5 {
   color: black;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Dhurjati", sans-serif;
   text-align: center;
   font-size: 30px;
 }
@@ -246,6 +237,7 @@ span4:hover {
   color: rgb(66, 66, 66);
   text-align: justify;
   font-size: 16.15px;
+  font-family: "Gayathri", sans-serif;
 }
 
 .carouselimagen {
@@ -273,14 +265,15 @@ span4:hover {
   padding: 50px;
   margin: 50px 25px;
   border-radius: 6px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   box-shadow: 2px 3px 5px rgba(255, 0, 0, 0.3647058824);
 }
 
 .formulario h4 {
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 20px;
+  font-family: "Bruno Ace", sans-serif;
+  text-align: center;
 }
 
 .controles {
@@ -291,7 +284,7 @@ span4:hover {
   border-radius: 6px;
   margin-bottom: 16px;
   border: 1px solid rgba(255, 0, 0, 0);
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gayathri", sans-serif;
   font-size: 16px;
   box-shadow: 1px 1px 1px #ffffff;
 }
@@ -299,12 +292,14 @@ span4:hover {
 .formulario p {
   height: 40px;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
+  font-family: "Dhurjati", sans-serif;
 }
 
 .formulario a {
   color: white;
   text-decoration: none;
+  font-family: "Dhurjati", sans-serif;
 }
 
 .formulario a:hover {
@@ -319,7 +314,8 @@ span4:hover {
   padding: 12px;
   color: rgb(255, 255, 255);
   margin: 16px 0;
-  font-size: 12px;
+  font-size: 15px;
+  font-family: "Bruno Ace", sans-serif;
 }
 
 .sobremi {
@@ -328,13 +324,14 @@ span4:hover {
 }
 
 .card-title1 {
-  font-size: 30px;
+  font-size: 35px;
   color: white;
   text-align: center;
+  font-family: "Dhurjati", sans-serif;
 }
 
 .card-text1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Gayathri", sans-serif;
   text-align: justify;
   font-size: 20px;
   padding-top: 10px;
@@ -345,9 +342,9 @@ iframe {
   border-radius: 20px;
 }
 
-span5 {
+span5:hover {
   color: red;
-  transition: 1sgit;
+  transition: 1s;
 }
 
 .card2 {
