@@ -3,36 +3,94 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+// Tipografía importadas
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Cinzel:wght@400..900&family=Dhurjati&family=Gayathri:wght@100;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Honk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+// Finaliza tipografía importadas
+
+// Inicia Variables tipograficas
+
+$fontbruno: "Bruno Ace", sans-serif;
+$fontdhurja: "Dhurjati", sans-serif;
+$fontcinzel: "Cinzel", serif;
+$fontGayathri: "Gayathri", sans-serif;
+$fontchakra: "Chakra Petch", sans-serif;
+$fonthonk: "Honk", system-ui;
+$fontdongle: "Dongle", sans-serif;
+
+// Finaliza variables tipograficas
+
 // inicio de estilo para index
 /* estilo navegador */
 .navbar{
-    background-image: url(/galeria/nav3.jpg);
+    background-image: url(../galeria/nav3.jpg);
     background-size: cover;
     background-position: center;
     text-align: end;
 }
 .empresa{
+    letter-spacing: 3px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: $fontbruno;
 }
 .collapse{
     display:inline-flex;
 }
 .collapse a{
-    font-size: 20px;
-    margin-right: 10px;
+    font-size: 9px;
+    margin-right: 5px;
     cursor: pointer;
     color: rgb(255, 255, 255);
-    font-weight: 600;
+    font-weight: 300;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.collapse a:hover{
-    color:rgb(255, 0, 0);
-    background-color: rgb(255, 255, 255);
-    transition: 1s;
-    border-radius: 40px;
-    align-items: center;
-}
+
+  .button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    --border-right: 6px;
+    --text-stroke-color: rgba(255, 255, 255, 0.6);
+    --animation-color: #ffffff;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+ 
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 5px 23px var(--animation-color))
+  }
+
+//   finaliza estilo de boton
+
 span1:hover{
     color: red;
     transition: 1.5s;
@@ -51,12 +109,18 @@ span1:hover{
 /* finaliza estilo navegador */
 
 /* Estilo card historia */
+
+main h2{
+    font-family: $fontdhurja;
+    font-size: 50px;
+}
 .contenido{
-    font-size: 18.5px;
+    font-size: 21px;
+    padding: 0 5px 0 5px;
+    font-family: $fontGayathri;
+
 }
-.principal-card{
-    padding-top: 2px;
-}
+
 /* finaliza estilo card historia */
 
 /* estilo footer  */
@@ -64,7 +128,7 @@ span1:hover{
     color: rgb(255, 255, 255);
     margin-left: 10px;
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $fontchakra;
     min-width: 120px;
     text-align: center;
 }
@@ -87,42 +151,31 @@ span1:hover{
 .copyright{
     font-size: 15px;
     color: white;
+    font-family: $fontcinzel;
 }
 .logofa{
     color: rgb(0, 68, 255);
 }
 .fa{
     color: white;
-    font-size: 12px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-span2:hover{
-    color: rgb(0, 68, 255);
-    transition: 1s;
+    font-size: 16px;
+    font-family: $fontdongle;
 }
 .logoins{
     color: orange;
 }
 .ins{
     color: white;
-    font-size: 12px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-span3:hover{
-    color: orange;
-    transition: 1s;
+    font-size: 16px;
+    font-family: $fontdongle;
 }
 .logotwi{
     color: rgb(0, 174, 255);
 }
 .twi{
     color: white;
-    font-size: 12px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-span4:hover{
-    color: rgb(0, 174, 255);
-    transition: 1s;
+    font-size: 16px;
+    font-family: $fontdongle;
 }
 /* finaliza diseño footer  */
 // finaliza estilo para index
@@ -131,7 +184,7 @@ span4:hover{
 
 .chasis h5 {
     color: rgb(0, 0, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $fontdhurja;
     text-align: center;
     font-size: 30px;
 }
@@ -140,11 +193,12 @@ span4:hover{
     color: rgb(66, 66, 66);
     text-align: justify;
     font-size: 15.75px;
+    font-family: $fontGayathri;
 }
 
 .motor h5 {
     color: rgb(0, 0, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $fontdhurja;
     text-align: center;
     font-size: 30px;
 }
@@ -153,11 +207,12 @@ span4:hover{
     color: rgb(66, 66, 66);
     text-align: justify;
     font-size: 16.55px;
+    font-family: $fontGayathri;
 }
 
 .transmision h5 {
     color: rgb(0, 0, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $fontdhurja;
     text-align: center;
     font-size: 30px;
 }
@@ -166,11 +221,12 @@ span4:hover{
     color: rgb(66, 66, 66);
     text-align: justify;
     font-size: 16.15px;
+    font-family: $fontGayathri;
 }
 
 .suspension h5 {
     color: rgb(0, 0, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $fontdhurja;
     text-align: center;
     font-size: 30px;
 }
@@ -179,11 +235,12 @@ span4:hover{
     color: rgb(66, 66, 66);
     text-align: justify;
     font-size: 15.45px;
+    font-family: $fontGayathri;
 }
 
 .frenos h5{
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $fontdhurja;
     text-align: center;
     font-size: 30px;
 }
@@ -192,4 +249,141 @@ span4:hover{
     color: rgb(66, 66, 66);
     text-align: justify;
     font-size: 16.15px;
+    font-family: $fontGayathri;
 }
+
+// finaliza estilo de piezas
+
+// inicio estilo de galeria
+
+.carouselimagen{
+    padding-top: 15px;
+}
+
+.carouselvideo{
+    padding-top: 15px;
+}
+
+// finalizo estilo de galeria
+
+// comienzo estilo de formulario
+
+.mainimagen {
+    background-image: url(../galeria/for1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.formulario {
+    width: 33%;
+    min-width: 350px;
+    background-image: url(../galeria/for2.jpg);
+    background-size: cover;
+    padding: 50px;
+    margin: 50px 25px;
+    border-radius: 6px;
+    color: white;
+    box-shadow: 2px 3px 5px rgba(255, 0, 0, 0.3647058824);
+  }
+  
+
+  .formulario h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: $fontbruno;
+    text-align: center;
+  }
+  .controles{
+    color: white;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ff000000;
+    font-family: $fontGayathri;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px #ffffff;
+  }
+  
+  .formulario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: $fontdhurja;
+  }
+
+  .formulario a{
+    color: white;
+    text-decoration: none;
+    font-family: $fontdhurja;
+  }
+  .formulario a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .formulario .boton{
+    width: 100%;
+    background: rgba(19, 19, 19, 0.089);
+    border-radius: 20px;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 16px 0;
+    font-size: 15px;
+    font-family: $fontbruno;
+  }
+
+//   finalizo estilo de formulario
+
+// inicio estilo sobre mi 
+
+.sobremi {
+    padding-top: 20px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .card-title1 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-family: $fontdhurja;
+  }
+  
+  .card-text1 {
+    font-family: $fontGayathri;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(196, 196, 196);
+  }
+  
+  iframe {
+    border-radius: 20px;
+  }
+  
+  span5:hover{
+    color: red;
+    transition: 1s;
+    }
+  
+  .card2{
+    background-image: linear-gradient(163deg, #ff0000 0%, #ff036c 100%);
+    border-radius: 20px;
+    transition: all .3s;
+  }
+  .card3 {
+    background-color: #000000;
+    border-radius: 0;
+    transition: all .2s;
+   }
+  
+   .card3:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card2:hover {
+    box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.3);
+   }
